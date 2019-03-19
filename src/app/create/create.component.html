@@ -1,0 +1,10 @@
+<h1>Create Employee Record</h1>
+<hr>
+<br>
+Enter ID : <input type="number" #id><br><br>
+Enter Name : <input type="text" #name><br><br>
+Enter Age : <input type="number" #age><br><br>
+Enter Salary : <input type="number" #salary><br><br>
+Enter Designation : <input type="text" #desig><br><br>
+
+<input type="button" (click)="createEmployee(id.value, name.value, age.value, salary.value, desig.value)" value="Create"><br><br>

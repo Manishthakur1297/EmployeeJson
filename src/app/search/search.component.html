@@ -1,0 +1,8 @@
+<h1>Search Employee Record</h1>
+<hr>
+<br>
+Enter ID : <input type="number" #id><br><br>
+
+<input type="button" (click)="searchEmployee(id.value)" value="Search"><br><br>
+
+{{emp.id}}  {{emp.name}}  {{emp.age}} {{ emp.salary }} {{ emp.designation }}

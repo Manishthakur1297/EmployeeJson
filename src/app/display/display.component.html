@@ -1,0 +1,12 @@
+<h1>Displaying All Employees Record</h1>
+<hr>
+<br>
+<h2>
+  <button type="button" (click)="displayAll()">Display</button>
+  <br><br>
+</h2>
+<ul>
+  <li *ngFor="let emp of employees">{{emp.id}}  {{emp.name}}  {{emp.age}} {{ emp.salary }} {{ emp.designation }}<hr></li>
+</ul>
+<hr>
+<hr>
